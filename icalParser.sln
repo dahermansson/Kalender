@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icalParser", "icalParser\icalParser.csproj", "{14421AF0-1232-4A80-B0AE-58BABB4E51CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{746787D9-95EC-4432-8454-30FD9441522E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14421AF0-1232-4A80-B0AE-58BABB4E51CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14421AF0-1232-4A80-B0AE-58BABB4E51CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14421AF0-1232-4A80-B0AE-58BABB4E51CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14421AF0-1232-4A80-B0AE-58BABB4E51CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746787D9-95EC-4432-8454-30FD9441522E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746787D9-95EC-4432-8454-30FD9441522E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746787D9-95EC-4432-8454-30FD9441522E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746787D9-95EC-4432-8454-30FD9441522E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
