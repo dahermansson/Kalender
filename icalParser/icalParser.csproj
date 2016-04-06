@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICalCreator.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="ItemBL.cs" />
     <Compile Include="Program.cs" />
