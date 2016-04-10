@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KalenderWeb", "KalenderWeb\KalenderWeb.csproj", "{121AD623-9585-4EEA-974C-E2402F3C02CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICalCreator", "ICalCreator\ICalCreator.csproj", "{ADEE4411-97F9-48F7-8177-62E5896D8B9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{121AD623-9585-4EEA-974C-E2402F3C02CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{121AD623-9585-4EEA-974C-E2402F3C02CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{121AD623-9585-4EEA-974C-E2402F3C02CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEE4411-97F9-48F7-8177-62E5896D8B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEE4411-97F9-48F7-8177-62E5896D8B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEE4411-97F9-48F7-8177-62E5896D8B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEE4411-97F9-48F7-8177-62E5896D8B9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

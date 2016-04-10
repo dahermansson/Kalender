@@ -70,9 +70,9 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\icalParser\icalParser.csproj">
-      <Project>{14421af0-1232-4a80-b0ae-58babb4e51cf}</Project>
-      <Name>icalParser</Name>
+    <ProjectReference Include="..\ICalCreator\ICalCreator.csproj">
+      <Project>{adee4411-97f9-48f7-8177-62e5896d8b9b}</Project>
+      <Name>ICalCreator</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

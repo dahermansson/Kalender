@@ -161,6 +161,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -176,9 +177,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\icalParser\icalParser.csproj">
-      <Project>{14421af0-1232-4a80-b0ae-58babb4e51cf}</Project>
-      <Name>icalParser</Name>
+    <ProjectReference Include="..\ICalCreator\ICalCreator.csproj">
+      <Project>{adee4411-97f9-48f7-8177-62e5896d8b9b}</Project>
+      <Name>ICalCreator</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

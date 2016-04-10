@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Data;
-using icalParser;
+using ICalCreator;
 using Xunit;
 
 namespace UnitTest
