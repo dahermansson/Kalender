@@ -16,7 +16,7 @@ namespace ICalCreator
       iCalendar iCal = new iCalendar();
       WebClient webClient = new WebClient();
       webClient.Encoding = Encoding.UTF8;
-      string[] items = webClient.DownloadString("http://dahermansson.github.io/ical/live.txt" + "?ticks=" + DateTime.Now.Ticks.ToString()).Split('$');
+      string[] items = webClient.DownloadString("http://hvmkblg.github.io/ross/ross.txt" + "?ticks=" + DateTime.Now.Ticks.ToString()).Split('$');
 
       foreach (string item in items)
       {
