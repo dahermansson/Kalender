@@ -14,10 +14,8 @@ namespace ICalCreator
     public static byte[] CreateIcal()
     {
       iCalendar iCal = new iCalendar();
-      iCal.AddLocalTimeZone();
       var wEuropeST = TimeZoneInfo.FindSystemTimeZoneById("W. Europe Standard Time");
       iCal.AddTimeZone(wEuropeST);
-      var zones = TimeZoneInfo.GetSystemTimeZones();
       WebClient webClient = new WebClient();
       webClient.Encoding = Encoding.UTF8;
       string[] items = webClient.DownloadString("http://hvmkblg.github.io/ross/ross.txt" + "?ticks=" + DateTime.Now.Ticks.ToString()).Split('$');
