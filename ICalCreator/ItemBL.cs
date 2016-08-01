@@ -34,7 +34,7 @@ namespace ICalCreator
     public static Event ToEvent(Item item)
     {
       Event evt = new Event();
-      evt.Start = new iCalDateTime(item.StartDate, "W.Europe Standard Time");
+      evt.Start = new iCalDateTime(item.StartDate, "W. Europe Standard Time");
       evt.End = new iCalDateTime(item.EndDate, "W. Europe Standard Time");
       evt.Summary = item.Summary;
       evt.Location = item.Location;
